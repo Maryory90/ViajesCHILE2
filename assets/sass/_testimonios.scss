@@ -1,0 +1,56 @@
+/*Seccion de testimonios*/
+
+@media (max-width: 768px) {
+  .testimony {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.testimony {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  border-radius: 8px;
+
+  &__item {
+    flex: 1;
+    margin: 0 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 120px;
+  }
+
+
+  &__image--circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid $color-white;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__description {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    font-size: $font-size-medium;
+    font-style: italic;
+    text-align: center;
+  }
+
+  &__author {
+    font-size: 0.9rem;
+    font-size: $font-size-largexl;
+    font-style: italic;
+    text-align: center;
+  }
+}

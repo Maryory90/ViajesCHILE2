@@ -1,0 +1,32 @@
+// Tipografía base del body y estilos
+body {
+  background: $color-background;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding-right: 60px;
+  padding-left: 60px;
+  font-family: $font-family-primary;
+  color: $color-white;
+}
+
+//estilos de h3: titulos de secciones
+h3 {
+  font-family: $font-family-primary;
+  font-weight: $font-weight-bold;
+  font-size: $font-size-large;
+}
+
+//estilos de parrafos
+p {
+  font-family: $font-family-primary;
+  font-weight: $font-weight-regular;
+  font-size: $font-size-medium;
+}
+
+//linea de division comun entre secciones
+.line-inicio {
+  background-color: $color-white;
+  height: 1.2px;
+  width: 100%;
+  margin-bottom: 30px;
+}

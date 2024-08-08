@@ -1,0 +1,55 @@
+/*navbar*/
+.navbar-style {
+    //background color en 0 le da la transparencia total
+    background-color: $color-opacity-white !important;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    //el navbar esta por encima del carrusel
+    z-index: 10;
+    padding-right: 150px;
+}
+
+/*carousel*/
+//Alturas para el carrusel
+.carousel-item img {
+    object-fit: cover;
+    width: 100%;
+}
+
+//Para pantallas grandes (>= 992px)
+@media (min-width: 992px) {
+    .carousel-item {
+        height: 500px !important;
+    }
+}
+
+//Para pantallas pequeñas (< 992px)
+@media (max-width: 991.98px) {
+    .carousel-item {
+        height: 300px !important;
+    }
+}
+
+//borde del carrusel
+.border-carrusel {
+    border-radius: 20px;
+}
+
+.icons-text {
+    .img-style {
+        width: 40px;
+    }
+
+    .text-icons {
+        font-weight: $font-weight-regular;
+        font-size: $font-size-largexl;
+    }
+}
+
+.text-link {
+    color: $color-white;
+    opacity: 70%;
+    font-size: $font-size-medium;
+    font-weight: $font-weight-regular;
+}

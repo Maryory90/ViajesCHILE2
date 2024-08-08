@@ -1,0 +1,12 @@
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+//Archivo de manifiesto (styles.scss)
+//Orden variables,mixins,estilos base, componentes(header,main,footer...)
+@import 'variables';
+@import 'global';
+@import 'header';
+@import 'quienes-somos';
+@import 'destacados';
+@import 'testimonios';
+@import 'contactos';
+
