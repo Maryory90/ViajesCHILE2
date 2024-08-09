@@ -33,3 +33,27 @@
 .origen {
     font-size: $font-size-xs;
 }
+
+@media (min-width: 992px) {
+    .desktop-height {
+        height: 560px;
+    }
+}
+
+@media (min-width: 1061px) {
+    .desktop-height {
+        height: 494px;
+    }
+}
+
+@media (min-width: 1151px) {
+    .desktop-height {
+        height: 382px !important;
+    }
+}
+
+@media (min-width: 1250px) {
+    .desktop-height {
+        height: 340px !important;
+    }
+}
