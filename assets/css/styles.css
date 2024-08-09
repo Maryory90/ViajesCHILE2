@@ -11966,6 +11966,26 @@ p {
   font-size: 12px;
 }
 
+@media (min-width: 992px) {
+  .desktop-height {
+    height: 560px;
+  }
+}
+@media (min-width: 1061px) {
+  .desktop-height {
+    height: 494px;
+  }
+}
+@media (min-width: 1151px) {
+  .desktop-height {
+    height: 382px !important;
+  }
+}
+@media (min-width: 1250px) {
+  .desktop-height {
+    height: 340px !important;
+  }
+}
 /*Seccion de testimonios*/
 @media (max-width: 768px) {
   .testimony {
